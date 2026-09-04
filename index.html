@@ -21,8 +21,10 @@
       margin: 0;
       padding: 0;
       width: 100%;
-      background: #ffffff;
       overflow-x: hidden;
+      background: #ffffff;
+      font-size: 0;
+      line-height: 0;
     }
 
     .landing-image {
@@ -32,6 +34,12 @@
       height: auto;
       margin: 0;
       padding: 0;
+      border: 0;
+      vertical-align: top;
+    }
+
+    .landing-image + .landing-image {
+      margin-top: -1px;
     }
   </style>
 </head>
@@ -40,21 +48,21 @@
 
   <img
     class="landing-image"
-    src="part1.jpg?v=1"
+    src="part1.PNG?v=1"
     alt="ZAZIL'HA Café de México"
     fetchpriority="high"
   >
 
   <img
     class="landing-image"
-    src="part2.jpg?v=1"
+    src="part2.PNG?v=1"
     alt="Sélection de cafés ZAZIL'HA"
     loading="lazy"
   >
 
   <img
     class="landing-image"
-    src="part3.jpg?v=1"
+    src="part3.PNG?v=1"
     alt="ZAZIL'HA pour les professionnels"
     loading="lazy"
   >
